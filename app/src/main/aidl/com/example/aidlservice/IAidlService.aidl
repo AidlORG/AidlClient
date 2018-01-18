@@ -1,5 +1,5 @@
 package com.example.aidlservice;
 
 interface IAidlService {
-    void sendCommand(String command);
+    String sendCommand(String command);
 }
